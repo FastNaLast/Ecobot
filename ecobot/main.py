@@ -2,7 +2,7 @@ import telebot
 import requests
 import random, os
 import time 
-bot = telebot.TeleBot("7741081792:AAFUadJmPLTsvit8EC7QHkDnAi_w76FbeNM")
+bot = telebot.TeleBot("code")
 img=os.listdir("./photo")
 
 @bot.message_handler(commands=['start'])
